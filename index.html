@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Outil SEO (david)</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="font-sans text-base sm:text-lg md:text-xl ">
+    <!-- Home  -->
+    <header id="home" class="magic-bg  pb-40 pt-40 md:pt-5">
+
+      <nav class="hidden justify-between items-center px-4 max-w-screen-xl mx-auto md:flex">
+        <div class="w-12">
+          <a href="#features">
+            <img src="./ressources/RocketLogo.svg" alt="logo d'une roquette">
+          </a>
+        </div>
+        <ul class="flex items-center space-x-10">
+          <li>
+            <a href="#home" class=" font-medium">
+              Accueil
+            </a>
+          </li>
+          <li class="">
+            <a href="#features" class=" font-medium">
+              Services
+            </a>
+          </li>
+          <li class="">
+            <a href="#price" class=" font-medium">
+              Nos tarifs
+            </a>
+          </li>
+          <li class="">
+            <a href="#contact" class=" font-medium">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <div>
+          <a href="" class="text-blue-700 text-base font-medium py-2 px-6 bg-white ring-1 ring-indigo-100 rounded-md shadow-md ">Log in</a>
+        </div>
+      </nav>
+
+      <nav class="absolute top-3 left-1/2 transform -translate-x-1/2 w-11/12 pl-4 pr-2 py-4 bg-white ring-1  ring-gray-200 shadow-lg rounded-lg md:hidden">
+        <div class="flex items-center pl-2 pr-2">
+          <div class="w-8 sm:w-10">
+            <a href="#features">
+              <img src="./ressources/RocketLogo.svg" alt="logo d'une roquette">
+            </a>
+          </div>
+          
+          <button type="button" id="nav-btn" class="block flex items-center justify-center ring-1 ring-black ring-opacity-20 rounded-lg w-10 h-10 px-1 px-2 ml-auto focus:ring-gray-900 focus:ring-2">
+            <img src="./ressources/menu.svg" alt="hamburger menu" class=""> 
+          </button>
+        </div>
+
+        <ul class="mt-6 hidden" id="nav-list-mobile">
+          <li>
+            <a href="#home" class="block py-2 px-2 font-medium hover:bg-gray-50">
+              Accueil
+            </a>
+          </li>
+          <li class="">
+            <a href="#features" class="block py-2 px-2 font-medium hover:bg-gray-50">
+              Services
+            </a>
+          </li>
+          <li class="">
+            <a href="#price" class="block py-2 px-2 font-medium hover:bg-gray-50">
+              Nos tarifs
+            </a>
+          </li>
+          <li class="">
+            <a href="#contact" class="block py-2 px-2 font-medium hover:bg-gray-50">
+              Contact
+            </a>
+          </li>
+        </ul>
+          
+      </nav>
+
+      <div class="text-center w-11/12 mx-auto md:mt-32">
+        <h1 class="uppercase tracking-tight font-black text-4xl text-grey-900 sm:text-5xl md:text-6xl">
+          Faites décoler votre <span class="text-blue-600">business en ligne</span>
+        </h1>
+        <p class="mt-3 md:mt-5 max-w-sm md:max-w-2xl  xl:w-3/5 mx-auto"> 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel odio, odit asperiores corrupti adipisci nihil sequi?
+        </p>
+        <div class="mt-4 md:mt-6 flex justify-center">
+          <button class="py-3 w-32 rounded-lg bg-blue-600 font-medium text-white text-sm hover:ring-1 hover:ring-blue-600 hover:text-blue-600 hover:bg-white sm:text-base">Commencer</button>
+          <button class="py-3 w-32 rounded-lg ring-1 ring-gray-200 ml-4 bg-white font-medium text-sm hover:bg-gray-100 sm:text-base  ">Démo</button>
+        </div>
+      </div>
+
+    </header>
+
+    <!-- Call to  Action -->
+    <section id="features" class="relative lg:flex lg:flex-row-reverse">
+      <div class="h-96 w-full relative overflow-hidden lg:static lg:w-1/2 lg:h-full">
+        <img src="./ressources/hommeTravail.jpg" alt="homme entrin de travailler" class="absolute z-50 w-full h-full object-cover object-right lg:w-1/2"> 
+      </div>
+      <div class="py-10 text-center md:py-32 lg:w-1/2">
+        <h2 class="uppercase text-5xl text-grey-900 font-black mx-auto px-5">Passez à l'action</h2>
+        <h3 class="text-5xl text-blue-900 font-black mx-auto px-8" >Boostez votre SEO</h3>
+        <p class="mt-3 text-lg mx-auto px-10 sm:text-xl md:max-w-md md:mt-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, et!</p>
+        <a href="#" class="block bg-blue-600 rounded-md text-lg text-white font-semibold py-3 mt-10 w-52 mx-auto hover:ring-1 hover:ring-blue-600 hover:text-blue-600 hover:bg-white md:text-2xl md:py-4 md:w-56">Essayez le</a>
+      </div>
+    </section>
+
+    <!--Stats section -->
+    <section class="bg-gradient-to-r from-blue-700 to-blue-500 py-11 text-center md:py-20">
+      <h3 class="text-4xl text-white font-black px-4 mx-auto md:text-5xl">10K+ Développeurs déjà convaincus</h3>
+      <p class="text-indigo-200 mt-3 px-4 sm:text-xl sm:px-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, odio!</p>
+      <div class="mt-8 sm:flex sm:justify-center">
+        <div>
+          <p class="font-black text-5xl text-white tracking-tight">100%</p>
+          <p class="text-indigo-200 text-lg font-medium mt-2">En ligne</p>
+        </div>
+        <div class="mt-4 sm:mt-0 sm:mx-10">
+          <p class="font-black text-5xl text-white tracking-tight ">24/7</p>
+          <p class="text-indigo-200 text-lg font-medium mt-2">Support</p>
+        </div>
+        <div class="mt-4 sm:mt-0">
+          <p class="font-black text-5xl text-white tracking-tight ">100K+</p>
+          <p class="text-indigo-200 text-lg font-medium mt-2">Projets</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Price section -->
+    <section id="price" class="py-20 md:py-20 text-center">
+      <h2 class="font-black text-5xl text-grey-900 tracking-tight">
+        Gamme de Prix
+      </h2>
+      <hr class="w-1/4 mx-auto mt-6 ">
+      <p class="mt-3 text-lg mx-auto px-10 sm:text-xl md:max-w-md md:mt-6">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, esse?
+      </p>
+      <div class="mt-3 flex flex-wrap justify-center items-center sm:space-x-6">
+        <div class="mt-5 p-6 w-10/12 max-w-xs min-h-500 magic-bg border border-gray-200 shadow-sm rounded-md text-left">
+          <h3 class="text-2xl text-grey-900 font-bold">Basique</h3>
+          <p class="mt-2 text-base">Comblez vos besoins basiques.</p>
+          <p class="mt-6 font-medium"><span class="text-4xl font-black mr-3">12€</span>/mois</p>
+          <a href="#" class="py-2 mt-8 block flex justify-center bg-gray-900 rounded-md text-sm text-white font-semibold ">Achetez le plan basique</a>
+          <p class="mt-8 text-xs font-medium uppercase tracking-wide">Inclus dans ce plan :</p>
+          <ul class="mt-6 space-y-4">
+            <li class="flex">
+              <img src="./ressources/checked.svg" alt="" class="w-5">
+              <p class="ml-4 text-sm">Lorem ipsum dolor sit amet.</p>
+            </li>
+            <li class="flex">
+              <img src="./ressources/checked.svg" alt="" class="w-5">
+              <p class="ml-4 text-sm">Lorem ipsum dolor sit amet.</p>
+            </li>
+          </ul>
+
+        </div>
+   
+        <div class="mt-5 p-6 w-10/12 max-w-xs min-h-500 magic-bg border border-gray-200 shadow-sm rounded-md text-left">
+          <h3 class="text-2xl text-grey-900 font-bold">Freelance</h3>
+          <p class="mt-2 text-base">Passez au niveau supérieur</p>
+          <p class="mt-6 font-medium"><span class="text-4xl font-black mr-3">29€</span>/mois</p>
+          <a href="#" class="py-2 mt-8 block flex justify-center bg-gray-900 rounded-md text-sm text-white font-semibold ">Achetez le plan Freelance</a>
+          <p class="mt-8 text-xs font-medium uppercase tracking-wide">Inclus dans ce plan :</p>
+          <ul class="mt-6 space-y-4">
+            <li class="flex">
+              <img src="./ressources/checked.svg" alt="" class="w-5">
+              <p class="ml-4 text-sm">Lorem ipsum dolor sit amet.</p>
+            </li>
+            <li class="flex">
+              <img src="./ressources/checked.svg" alt="" class="w-5">
+              <p class="ml-4 text-sm">Lorem ipsum dolor sit amet.</p>
+            </li>
+            <li class="flex">
+              <img src="./ressources/checked.svg" alt="" class="w-5">
+              <p class="ml-4 text-sm">Lorem ipsum dolor sit amet.</p>
+            </li>
+          </ul>
+        </div>
+   
+        <div class="mt-5 p-6 w-10/12 max-w-xs min-h-500 magic-bg border border-gray-200 shadow-sm rounded-md text-left">
+          <h3 class="text-2xl text-grey-900 font-bold">Professionnel</h3>
+          <p class="mt-2 text-base">Le pack complet</p>
+          <p class="mt-6 font-medium"><span class="text-4xl font-black mr-3">99€</span>/mois</p>
+          <a href="#" class="py-2 mt-8 block flex justify-center bg-gray-900 rounded-md text-sm text-white font-semibold ">Achetez le plan professionnel</a>
+          <p class="mt-8 text-xs font-medium uppercase tracking-wide">Inclus dans ce plan :</p>
+          <ul class="mt-6 space-y-4">
+            <li class="flex">
+              <img src="./ressources/checked.svg" alt="" class="w-5">
+              <p class="ml-4 text-sm">Lorem ipsum dolor sit amet.</p>
+            </li>
+            <li class="flex">
+              <img src="./ressources/checked.svg" alt="" class="w-5">
+              <p class="ml-4 text-sm">Lorem ipsum dolor sit amet.</p>
+            </li>
+            <li class="flex">
+              <img src="./ressources/checked.svg" alt="" class="w-5">
+              <p class="ml-4 text-sm">Lorem ipsum dolor sit amet.</p>
+            </li>
+            <li class="flex">
+              <img src="./ressources/checked.svg" alt="" class="w-5">
+              <p class="ml-4 text-sm">Lorem ipsum dolor sit amet.</p>
+            </li>
+            <li class="flex">
+              <img src="./ressources/checked.svg" alt="" class="w-5">
+              <p class="ml-4 text-sm">Lorem ipsum dolor sit amet.</p>
+            </li>
+          </ul>
+        </div>
+   
+
+      </div>
+    </section>
+
+    <!-- Partner section -->
+    <section class="trust-bg py-16">
+      <h2 class="text-5xl font-black text-center px-1">Ces entreprises nous font confiance</h2>
+
+      <div class="mt-12 flex flex-wrap px-10 justify-center aligns-center sm:px-20">
+        <img src="./ressources/IBM.png" alt="logo de IBM" class="h-12 mt-6 mx-6 md:mx-7">
+        <img src="./ressources/apple-logo.png" alt="logo de IBM" class="h-16 mt-6  mx-6 md:mx-7">
+        <img src="./ressources/github-logo.png" alt="logo de IBM" class="h-16 mt-6  mx-6 md:mx-7">
+        <img src="./ressources/Audi.png" alt="logo de IBM" class="h-16 mt-6 sm: mx-6 md:mx-7">
+
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="bg-gray-50 pt-10 pb-40">
+      <h2 class="text-3xl font-medium text-center md:text-4xl">Rentrons en contact</h2>
+      <hr class="w-48 mx-auto mt-6  bg-gray-500 h-1">
+
+      <form class="bg-white shadow-xs max-w-3xl mt-10 mx-auto px-4 py-8 sm:text-base md:text-base md:py-20 md:px-8 lg:px-12">
+        <div>  
+          <label for="name" class="text-gray-500">
+            Nom complet
+          </label>
+          <input type="text" name="name" id="name" placeholder="Votre nom" class="block border shadow-sm placeholder-gray-500 w-full py-3 pl-4 mt-2 rounded-lg ">
+        </div>
+        <div class="mt-6">  
+          <label for="first-name" class="text-gray-500">
+            Prénom
+          </label>
+          <input type="text" name="first-name" id="first-name" placeholder="Votre prénom" class="block border shadow-sm placeholder-gray-500 w-full py-3 pl-4 mt-2 rounded-lg ">
+        </div>
+        <div class="mt-6">  
+          <label for="company" class="text-gray-500">
+            Votre entreprise
+          </label>
+          <input type="text" name="company" id="company" placeholder="Votre entreprise" class="block border shadow-sm placeholder-gray-500 w-full py-3 pl-4 mt-2 rounded-lg ">
+        </div>
+        <div class="mt-6">  
+          <label for="message" class="text-gray-500">
+            Votre message
+          </label>
+          <textarea name="message" id="message" class="block border shadow-sm w-full py-3 pl-4 mt-2 rounded-lg "></textarea>
+        </div>
+        <button class="mt-6 py-3 px-6 rounded-lg bg-blue-600 font-medium text-white text-base hover:ring-1 hover:ring-blue-600 hover:text-blue-600 hover:bg-white sm:text-base">Envoyer</button>
+        
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-6 text-center">
+      <h2 class=" text-3xl text-white">Retrouvez-nous ici</h2>
+
+      <div class="mt-6 flex justify-center aligns-center space-x-6">
+        <a href="#" class="block w-5">
+          <img src="./ressources/fb.svg" alt="" class="w-full" >
+        </a>
+        <a href="#" class="block w-5">
+          <img src="./ressources/instagram.svg" alt="" class="w-full">
+        </a>
+        <a href="#" class="block w-5">
+          <img src="./ressources/githubpetitlogo.svg" alt=""class="w-full">
+        </a>
+        <a href="#" class="block w-5">
+          <img src="./ressources/twitter.svg" alt="" class="w-full">
+        </a>
+      </div>
+
+      <hr class="bg-white mt-6 mx-auto w-32 ">
+
+      <p class="mt-8 text-gray-400">© 2020 SEOTOOL, TOUS DROITS RÉSERVÉS</p>
+
+    </footer>
+   
+    <script src="./app.js"></script>
+  </body>
+</html>
